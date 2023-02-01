@@ -57,6 +57,11 @@ p{
   color: #382AE1;
   font-size: 13px;
   margin-left: 11rem;
+  cursor: pointer;
+}
+.change:hover{
+  text-decoration-line: none;
+  color: #766CF1;
 }
 .plan{
   font-size: 14px;
@@ -77,6 +82,7 @@ p{
   font-size: 15px;
   line-height: 20px;
   color: #717FA6;
+  cursor: pointer;
 }
 .proceed{
   position: absolute;
@@ -92,6 +98,10 @@ p{
   font-size: 15px;
   line-height: 20px;
   box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+.proceed:hover{
+  cursor: pointer;
+  background-color:#766CF1 ;
 }
 @media screen and (min-width:800px) {
   body{
